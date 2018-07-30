@@ -6,18 +6,18 @@ static int count = 10; /* 全局变量 */
 
 int main(int argc, char const *argv[])
 {
-	while(--count)
-	{
-		func();
-	}
-	return 0;
+    while(--count)
+    {
+        func();
+    }
+    return 0;
 }
 
 // 函数定义
 void func(void)
 {
-	static int i = 5; // 局部静态变量
-	i++;
-	std::cout << "变量 i 为 " << i;
-	std::cout << ", 变量 count 为 " << count << std::endl;
+    static int i = 5; // 局部静态变量
+    i++;
+    std::cout << "变量 i 为 " << i;
+    std::cout << ", 变量 count 为 " << count << std::endl;
 }
