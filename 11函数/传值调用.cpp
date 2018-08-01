@@ -20,10 +20,10 @@ int main(int argc, char const *argv[])
 
 void swap(int x, int y)
 {
-	int temp;
+    int temp;
 
-	temp = x;
-	x = y;
-	y = temp;
-	return;
+    temp = x;
+    x = y;
+    y = temp;
+    return;
 }
