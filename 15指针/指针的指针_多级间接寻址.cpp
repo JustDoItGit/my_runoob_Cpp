@@ -18,6 +18,8 @@ int main ()
    pptr = &ptr;
 
    ppptr = &pptr;
+
+   **pptr = 112;
  
    // 使用 pptr 获取值
    cout << "Value of var :" << var << endl;
