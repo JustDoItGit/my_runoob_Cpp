@@ -29,7 +29,7 @@ int main(int argc, char const *argv[])
     strcpy( Book2.subject, "前端技术");
     Book2.book_id = 12346;
 
-    // 通过传 Book1 的地址来输出 Book1 信息
+    // 通过传 Book1 的地址来输出 Book1 信息∏
     printBook(&Book1);
 
     // 通过传 Book2 的地址来输出 Book2 信息
@@ -39,7 +39,7 @@ int main(int argc, char const *argv[])
 
 void printBook(struct Books *book)
 {
-    cout << "书标题  : " << book->title << endl;
+    cout << "书标题 : " << book->title << endl;
     cout << "书作者 : " << book->author << endl;
     cout << "书类目 : " << book->subject << endl;
     cout << "书 ID : " << book->book_id << endl;
