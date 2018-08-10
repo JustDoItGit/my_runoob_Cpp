@@ -18,6 +18,18 @@ public:
     }
 };
 
+int print(int i, double j)
+{
+    cout << i << j << endl;
+    return 0;
+}
+
+int print(int i)
+{
+	cout << i << endl;
+	return 0;
+}
+
 int main(int argc, char const *argv[])
 {
     printData pd;
@@ -29,5 +41,8 @@ int main(int argc, char const *argv[])
     // 输出字符串
     char c[] = "Hello C++";
     pd.print(c);
+
+    print(1, 3.5);
+    print(4);
     return 0;
 }
