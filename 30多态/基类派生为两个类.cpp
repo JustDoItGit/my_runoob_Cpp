@@ -57,11 +57,14 @@ int main(int argc, char const *argv[])
     Rectabgle rec(10, 7);
     Triangle tri(10, 5);
 
+    int area;
     shape = &rec;
-    shape -> area();
+    area = shape -> area();
+    cout << "rec area = " << area << endl;
 
     shape = &tri;
-    shape -> area();
+    area = shape -> area();
+    cout << "tri area = " << area << endl;
 
     rec.area();
     tri.area();
