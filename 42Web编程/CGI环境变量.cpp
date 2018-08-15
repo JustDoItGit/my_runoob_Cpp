@@ -42,7 +42,7 @@ int main ()
         }
         cout << "</td></tr>\n";
     }
-    cout << "</table><\n";
+    cout << "</table>\n";
     cout << "</body>\n";
     cout << "</html>\n";
 
